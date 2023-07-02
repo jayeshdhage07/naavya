@@ -1,11 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Housinglocation } from '../housinglocation';
 @Component({
-  selector: 'app-game-list',
-  templateUrl: './game-list.component.html',
-  styleUrls: ['./game-list.component.scss']
+  selector: 'app-housing-location',
+  templateUrl: './housing-location.component.html',
+  styleUrls: ['./housing-location.component.scss']
 })
-export class GameListComponent implements OnInit {
+export class HousingLocationComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GameListComponent } from './game-list/game-list.component';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
 import { HomeComponent } from './home/home.component';
 import { DetailsComponent } from './details/details.component';
 
 const routes: Routes = [
-  {path: 'gameList', component: GameListComponent},
+  {path: 'housingLocation', component: HousingLocationComponent},
   {path: 'home', component: HomeComponent},
   {path: 'details/:id', component: DetailsComponent}
 ];
